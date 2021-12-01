@@ -11,15 +11,18 @@ class Solution(object):
         }
         stack = []
         for i in s:
-            # open brackets
+            # push open brackets onto the stack
             if i in '({[':
                 stack.append(i)
-            # close brackets
+            # closed brackets should match top of stack
             else:
+                # check for too many closed brackets
                 if len(stack) == 0:
                     return False
                 top = stack.pop()
+                # check closed bracket matches type
                 if reversed[top] != i:
                     return False
 
+        # check for too many open brackets
         return len(stack) == 0
