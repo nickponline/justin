@@ -9,7 +9,8 @@ def word_hash():
     words = [ x.strip() for x in open("dictionary.txt", "r") if len(x.strip()) == 7 ]
 
     for x in words:
-        sorted_dict["".join(sorted(x))].append(x)
+        x_sorted = "".join(sorted(x))
+        sorted_dict[x_sorted].append(x)
 
     return sorted_dict
 
