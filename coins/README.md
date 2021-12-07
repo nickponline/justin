@@ -19,15 +19,17 @@ Explanation: (1x5 + 1x2 + 1x1)
 
 Input
 ===
+```
 S = {5, 2, 1}
-K = 10
+K = 18
+```
 
 Output
 ===
 ```
-2
+5
 ```
-Explanation: (2x5)
+Explanation: (3x5 + 1x2 + 1x1)
 
 Input
 ===
