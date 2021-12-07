@@ -1,7 +1,8 @@
 Coins
 ===
 
-Given a set of coin values *S* calculate the minimum number of coins needed to make a value of *K*. You can use each coin as many times as you like.
+Given a set of coin values *S* calculate the minimum number of coins needed to make a value of *K*.
+You can use each coin as many times as you like.
 
 Input
 ===
