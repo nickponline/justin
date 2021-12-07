@@ -5,13 +5,17 @@ Given a set of coin values *S* calculate the minimum number of coins needed to m
 
 Input
 ===
+```
 S = {5, 2, 1}
 K = 8
+```
 
 Output
 ===
-3 (1x5 + 1x2 + 1x1)
-
+```
+3
+```
+Explanation: (1x5 + 1x2 + 1x1)
 
 Input
 ===
@@ -20,13 +24,21 @@ K = 10
 
 Output
 ===
-2 (2x5)
+```
+2
+```
+Explanation: (2x5)
 
 Input
 ===
+```
 S = {1, 15, 25}
 K = 30
+```
 
 Output
 ===
-2 (2x15)
+```
+2
+```
+Explanation: 2x15
