@@ -8,7 +8,9 @@ class Solution(object):
 
         length = len(height)
 
+        # highest wall left of position i
         max_l = [0] * length
+        # highest wall right of position i
         max_r = [0] * length
 
         max_l[0] = height[0]
